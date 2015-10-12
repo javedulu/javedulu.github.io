@@ -1,0 +1,2 @@
+/*! 10-12-2015 9:54:59 AM */
+var elem=$("#3jswidget"),width=.99*$(window).width(),height=.95*$(window).height(),type="CSZ",name="Camry_V1",url="data/Camry_V1.csz",ng3widget=new ng3jswidget(elem[0],width,height,type,url,name);ng3widget._isNavigate=!0,ng3widget.startup(),$(window).resize(function(){var a=.99*$(window).width(),b=.95*$(window).height();ng3widget.resize(a,b)});var animate=function(){requestAnimationFrame(animate),ng3widget&&ng3widget._sceneloop()};animate();
